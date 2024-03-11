@@ -1,16 +1,20 @@
+import javafx.application.Application;
+import javafx.stage.Stage;
 
-public class GreetingsJavaFX
+public class GreetingsJavaFX extends Application
 {
-
-	public GreetingsJavaFX()
-	{
-		// TODO Auto-generated constructor stub
-	}
 
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
+		launch(args);
 
+	}
+
+	@Override
+	public void start(Stage primaryStage)
+	{
+		// TODO Auto-generated method stub
+		
 	}
 
 }
